@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* css document */
+body{
+    background-color: beige;
+    margin: 0px;
+    padding:0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image:url(../Downloads/anime-boy-whatsapp-dp-660x470.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+<nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: beige;
+    box-shadow: crimson;
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul{
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;font-size: 22px;
+    font-size: 22px;
+}
+ :active{
+    font-weight: bold;
+    color: black;
+}
