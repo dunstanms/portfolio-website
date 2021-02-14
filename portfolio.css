@@ -1,49 +1,50 @@
-@charset "UTF-8";
-/* css document */
-body{
-    background-color: beige;
-    margin: 0px;
-    padding:0px;
-}
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-section{
-    width: 100%;
-    height: 95vh;
-    background-image:url(../Downloads/anime-boy-whatsapp-dp-660x470.jpg);
-    background-repeat: no-repeat;
+/*  */
+body {
+    background-image: url(backgroundimage.jpg);
     background-size: cover;
 }
-
-<nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: beige;
-    box-shadow: crimson;
-    padding: 0px 5%;
+h2+h3,p{
+    color: rgba(0, 255, 242, 0.521);
+    text-align: center;
+    border: dashed orangered;
+    cursor:cell;
 }
-nav ul{
-    display: flex;
+h2,h3,h4 {
+    text-align: center;
+    font-size: larger;
 }
-nav ul{
-    margin: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: chocolate;
-    font-size: 15px;
-    font-weight: 700;
-}
-.logo{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:black;font-size: 22px;
-    font-size: 22px;
-}
- :active{
+p{
+    color:rgb(104, 234, 252);
+    line-height: 20px;
     font-weight: bold;
-    color: black;
+    font-size: 125%;
+}
+img {
+    float: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+    color: white;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.webtext {
+    border: 4px dashed rgb(111, 205, 92);
+}
+#div1 {
+    background:transparent;
+}
+ol{
+    text-align: center;
+    font-size: larger;
+    color:rgb(104, 234, 252);
+    font-weight: bold;
+}
+form{
+    color:rgb(104, 234, 252);
+    font-size: larger;
+    text-align: left;
 }
